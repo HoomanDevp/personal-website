@@ -1,10 +1,6 @@
 import { Container, List, Tabs, Text, Title, Image } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { useExperiencesStyles } from "./useExperiencesStyles";
-import viaplay from "./logos/viaplay.png";
-import segula from "./logos/segula.png";
-import gsm from "./logos/gsm.png";
-import wirelesscar from "./logos/wirelesscar.png";
 import eg from "./logos/eg.png";
 import golestan from "./logos/golestan.png";
 import avihang from "./logos/avihang.png";
@@ -46,47 +42,17 @@ export function Experiences() {
           <Tabs.List>
             <Tabs.Tab
               className={classes.tabs}
-              value="Viaplay"
-              icon={<Image src={viaplay.src} width="1.5rem" alt="Viaplay" />}
-            >
-              Viaplay Group
-            </Tabs.Tab>
-            <Tabs.Tab
-              className={classes.tabs}
-              value="SegulaTechnologies"
-              icon={<Image src={segula.src} width="1.5rem" alt="Segula" />}
-            >
-              Segula Technologies
-            </Tabs.Tab>
-            <Tabs.Tab
-              className={classes.tabs}
-              value="GSM"
-              icon={<Image src={gsm.src} width="1.5rem" alt="GSM" />}
-            >
-              GSM Electric
-            </Tabs.Tab>
-            <Tabs.Tab
-              className={classes.tabs}
-              value="WirelessCar"
-              icon={
-                <Image src={wirelesscar.src} width="1.5rem" alt="WirelessCar" />
-              }
-            >
-              WirelessCar
-            </Tabs.Tab>
-            <Tabs.Tab
-              className={classes.tabs}
-              value="EstateGuru"
+              value="Modern ISC"
               icon={<Image src={eg.src} width="1.5rem" alt="EstateGuru" />}
             >
-              EstateGuru
+              Novin Kish Service Co.
             </Tabs.Tab>
             <Tabs.Tab
               className={classes.tabs}
-              value="Golestan"
+              value="DPI"
               icon={<Image src={golestan.src} width="1.5rem" alt="Golestan" />}
             >
-              Golestan University
+              Dadeh Pardazi Iran
             </Tabs.Tab>
             <Tabs.Tab
               className={classes.tabs}

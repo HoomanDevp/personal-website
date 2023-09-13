@@ -18,7 +18,7 @@ export function SocialMedia() {
           variant="subtle"
           component="a"
           target="_blank"
-          href="https://www.youtube.com/@hamidfarmani/"
+          href="https://www.youtube.com/@hoomanyarahmadi/"
         >
           <BrandYoutube size="1rem" />
         </ActionIcon>
@@ -27,7 +27,7 @@ export function SocialMedia() {
           variant="subtle"
           component="a"
           target="_blank"
-          href="https://github.com/hamidfarmani/"
+          href="https://github.com/HoomanDevp/"
         >
           <BrandGithub size="1rem" />
         </ActionIcon>
@@ -36,7 +36,7 @@ export function SocialMedia() {
           variant="subtle"
           component="a"
           target="_blank"
-          href="https://www.linkedin.com/in/hamidfarmani/"
+          href="https://www.linkedin.com/in/hooman-yarahmadi/"
         >
           <BrandLinkedin size="1rem" />
         </ActionIcon>
@@ -45,7 +45,7 @@ export function SocialMedia() {
           variant="subtle"
           component="a"
           target="_blank"
-          href="https://twitter.com/Hamo_far/"
+          href="https://twitter.com/hdevl0per/"
         >
           <BrandTwitter size="1rem" />
         </ActionIcon>
@@ -53,7 +53,7 @@ export function SocialMedia() {
         <ActionIcon
           variant="subtle"
           component="a"
-          href="mailto:hamidfarmani1@gamil.com"
+          href="mailto:hoomanyarahmadi72@gamil.com"
         >
           <Mail size="1rem" />
         </ActionIcon>
@@ -63,7 +63,7 @@ export function SocialMedia() {
 
       <Stack className={classes.right}>
         <Text c="dimmed" className={classes.verticalText}>
-          Hamidfarmani1@gmail.com
+          hoomanyarahmadi72@gmail.com
         </Text>
         <Text className={classes.lineRight}></Text>
       </Stack>

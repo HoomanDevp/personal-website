@@ -31,7 +31,7 @@ export function ContactMe() {
             variant="subtle"
             component="a"
             target="_blank"
-            href="https://www.linkedin.com/in/hamidfarmani/"
+            href="https://www.linkedin.com/in/hooman-yarahmadi/"
           >
             <BrandLinkedin size="3rem" strokeWidth={1} />
           </ActionIcon>
@@ -41,7 +41,7 @@ export function ContactMe() {
             variant="subtle"
             component="a"
             target="_blank"
-            href="https://twitter.com/Hamo_far/"
+            href="https://twitter.com/hdevel0per/"
           >
             <BrandTwitter size="3rem" strokeWidth={1} />
           </ActionIcon>
@@ -50,7 +50,7 @@ export function ContactMe() {
             size="xl"
             variant="subtle"
             component="a"
-            href="mailto:hamidfarmani1@gamil.com"
+            href="mailto:hoomanyarahmadi72@gamil.com"
           >
             <Mail size="3rem" strokeWidth={1} />
           </ActionIcon>

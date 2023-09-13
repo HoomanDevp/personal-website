@@ -19,7 +19,7 @@ export function Summary() {
         <Title className={classes.title}>
           I&apos;m{" "}
           <Text component="span" className={classes.highlight} inherit>
-            Hamid
+            Hooman
           </Text>
           , a Software Engineer!
         </Title>
@@ -41,7 +41,7 @@ export function Summary() {
             mr="md"
             component="a"
             target="_blank"
-            href="https://drive.google.com/file/d/1EsrNKthQVzyzg6yppHQPiNO29B3xNhUb/view?usp=share_link"
+            href="https://drive.google.com/file/d/19bhWRq7iTraswVNy1tVypjoPhSQ-WJ1e/view?usp=drive_link"
           >
             Check my resume
           </Button>

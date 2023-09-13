@@ -61,7 +61,7 @@ export function HeaderResponsive({
   return (
     <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
       <Container className={classes.header}>
-        <Text>Hamid Farmani</Text>
+        <Text>Hooman Yarahmadi</Text>
         <Group position="right">
           <Group spacing={5} className={classes.links}>
             {items}

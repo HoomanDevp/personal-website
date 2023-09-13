@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hamid Farmani</title>
+        <title>HOOMAN YARAHMADI</title>
       </Head>
       <MouseHighlight />
       <Affix position={{ bottom: rem(20), right: rem(20) }}>
