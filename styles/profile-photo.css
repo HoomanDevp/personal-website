@@ -1,0 +1,61 @@
+.profile-card {
+  position: relative;
+}
+
+.profile-card::before {
+  content: "";
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.28 / 1;
+  border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, transparent 64%, color-mix(in srgb, var(--panel-strong) 36%, transparent) 100%),
+    url("/personal-website/profile-hooman.jpg") center 28% / cover no-repeat;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.profile-card-head {
+  background: color-mix(in srgb, var(--panel) 92%, transparent);
+}
+
+@media (max-width: 900px) {
+  .hero-side {
+    width: min(100%, 560px);
+  }
+
+  .profile-card::before {
+    aspect-ratio: 1.45 / 1;
+    background-position: center 26%;
+  }
+}
+
+@media (max-width: 560px) {
+  .profile-card::before {
+    aspect-ratio: 1.18 / 1;
+    background-position: center 24%;
+  }
+}
+
+@media print {
+  .hero-side {
+    display: block !important;
+    max-width: 225px;
+  }
+
+  .profile-card {
+    box-shadow: none;
+  }
+
+  .profile-card::before {
+    aspect-ratio: 1 / 1;
+    background-position: center 24%;
+  }
+
+  .profile-card-head,
+  .profile-lead,
+  .profile-list,
+  .profile-footer {
+    display: none !important;
+  }
+}
