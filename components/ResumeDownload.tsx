@@ -15,7 +15,7 @@ export default function ResumeDownload() {
   return createPortal(
     <a
       className="button button-ghost resume-download no-print"
-      href="HoomanYarahmadi-Java.pdf"
+      href="/HoomanYarahmadi-Java.pdf"
       download="HoomanYarahmadi-Java.pdf"
       aria-label="Download Hooman Yarahmadi resume as PDF"
     >
