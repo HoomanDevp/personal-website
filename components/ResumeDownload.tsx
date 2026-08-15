@@ -1,16 +1,27 @@
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
+
 export default function ResumeDownload() {
-  return (
+  const [target, setTarget] = useState<Element | null>(null);
+
+  useEffect(() => {
+    setTarget(document.querySelector(".hero .cta-row"));
+  }, []);
+
+  if (!target) {
+    return null;
+  }
+
+  return createPortal(
     <a
-      className="resume-download no-print"
+      className="button button-ghost resume-download no-print"
       href="/personal-website/HoomanYarahmadi-Java.pdf"
       download="HoomanYarahmadi-Java.pdf"
       aria-label="Download Hooman Yarahmadi resume as PDF"
     >
-      <span className="resume-download-icon" aria-hidden="true">↓</span>
-      <span>
-        <small>Résumé</small>
-        <strong>Download PDF</strong>
-      </span>
-    </a>
+      <span aria-hidden="true">↓</span>
+      Download résumé PDF
+    </a>,
+    target,
   );
 }
