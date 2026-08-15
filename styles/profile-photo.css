@@ -10,7 +10,7 @@
   border-bottom: 1px solid var(--line);
   background:
     linear-gradient(180deg, transparent 64%, color-mix(in srgb, var(--panel-strong) 36%, transparent) 100%),
-    url("/personal-website/profile-hooman.jpg") center 28% / cover no-repeat;
+    url("/personal-website/profile-hooman.png") center 28% / cover no-repeat;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
